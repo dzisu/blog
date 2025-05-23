@@ -4,6 +4,7 @@ defaultContentLanguage = "he"
 title = "הבלוג שלי"
 theme = "PaperMod"
 enableInlineShortcodes = true
+publishDir = "docs"  # ✅ שורה זו הועברה למיקום הנכון
 
 [languages]
   [languages.he]
@@ -15,7 +16,6 @@ enableInlineShortcodes = true
   home = ["HTML", "RSS", "JSON"]
 
 [params]
-
   ShowToc = true
   ShowBreadCrumbs = true
   ShowReadingTime = true
@@ -31,13 +31,11 @@ enableInlineShortcodes = true
     Content = """👋 כאן אשתף מחשבות, קוד, ופרויקטים.
 🎵 תודה על הביקור."""
 
- [params.assets]
-  customCSS = ["css/custom.css"]
-  disableScrollBarStyle = false
-
+  [params.assets]
+    customCSS = ["css/custom.css"]
+    disableScrollBarStyle = false
 
 [menu]
-
   [[menu.main]]
     identifier = "search"
     name = "חיפוש"
@@ -50,16 +48,14 @@ enableInlineShortcodes = true
     url = "tags/"
     weight = 2
 
-[[menu.main]]
-  identifier = "categories"
-  name = "קטגוריות"
-  url = "categories/"
-  weight = 3
+  [[menu.main]]
+    identifier = "categories"
+    name = "קטגוריות"
+    url = "categories/"
+    weight = 3
 
   [[menu.main]]
-  identifier = "archives"
-  name = "ארכיון"
-  url = "archives/"
-  weight = 4
-
-  publishDir = "docs"
+    identifier = "archives"
+    name = "ארכיון"
+    url = "archives/"
+    weight = 4
