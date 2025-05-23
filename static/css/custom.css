@@ -1,0 +1,58 @@
+
+html {
+  direction: rtl !important;
+}
+
+body {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+header nav,
+.navbar,
+.menu {
+  direction: rtl !important;
+  text-align: right !important;
+  justify-content: flex-start !important;
+}
+
+.taxonomy-title,
+.tag-title,
+.list-title,
+.archive-year,
+h1, h2, h3, h4, h5 {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+.tag-cloud {
+  direction: rtl !important;
+}
+
+.tag-cloud a {
+  float: right !important;
+  margin-left: 10px !important;
+  margin-right: 0 !important;
+}
+
+.pagination {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.breadcrumb {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.post-content {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+.widget,
+.sidebar,
+.sidebar .widget {
+  direction: rtl !important;
+  text-align: right !important;
+}

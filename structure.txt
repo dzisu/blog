@@ -1,0 +1,243 @@
+Folder PATH listing for volume Windows
+Volume serial number is D83B-B952
+C:.
+?   .hugo_build.lock
+?   config.toml
+?   hugo.exe
+?   structure.txt
+?   
+????archetypes
+?       default.md
+?       
+????assets
+?   ????css
+?           custom.css
+?           
+????content
+?   ????posts
+?           first-post.md
+?           second-post.md
+?           
+????layouts
+?   ????_default
+?           list.json.json
+?           
+????public
+?   ?   404.html
+?   ?   index.html
+?   ?   index.json
+?   ?   index.xml
+?   ?   sitemap.xml
+?   ?   
+?   ????assets
+?   ?   ????css
+?   ?           stylesheet.93f625d739f1d6a5c6f20c146bc6a8d26b233492b34b2220c54b12fd46a04ded.css
+?   ?           
+?   ????categories
+?   ?       index.html
+?   ?       index.xml
+?   ?       
+?   ????page
+?   ?   ????1
+?   ?           index.html
+?   ?           
+?   ????posts
+?   ?   ?   index.html
+?   ?   ?   index.xml
+?   ?   ?   
+?   ?   ????first-post
+?   ?   ?       index.html
+?   ?   ?       
+?   ?   ????page
+?   ?   ?   ????1
+?   ?   ?           index.html
+?   ?   ?           
+?   ?   ????second-post
+?   ?           index.html
+?   ?           
+?   ????tags
+?       ?   index.html
+?       ?   index.xml
+?       ?   
+?       ????ברוכים-הבאים
+?       ?   ?   index.html
+?       ?   ?   index.xml
+?       ?   ?   
+?       ?   ????page
+?       ?       ????1
+?       ?               index.html
+?       ?               
+?       ????עדכונים
+?       ?   ?   index.html
+?       ?   ?   index.xml
+?       ?   ?   
+?       ?   ????page
+?       ?       ????1
+?       ?               index.html
+?       ?               
+?       ????פתיחה
+?           ?   index.html
+?           ?   index.xml
+?           ?   
+?           ????page
+?               ????1
+?                       index.html
+?                       
+????themes
+    ????PaperMod
+        ?   go.mod
+        ?   LICENSE
+        ?   README.md
+        ?   theme.toml
+        ?   
+        ????.github
+        ?   ?   PULL_REQUEST_TEMPLATE.md
+        ?   ?   
+        ?   ????ISSUE_TEMPLATE
+        ?   ?       bug.yaml
+        ?   ?       config.yml
+        ?   ?       enhancement.yaml
+        ?   ?       
+        ?   ????workflows
+        ?           gh-pages.yml
+        ?           
+        ????assets
+        ?   ????css
+        ?   ?   ????common
+        ?   ?   ?       404.css
+        ?   ?   ?       archive.css
+        ?   ?   ?       footer.css
+        ?   ?   ?       header.css
+        ?   ?   ?       main.css
+        ?   ?   ?       post-entry.css
+        ?   ?   ?       post-single.css
+        ?   ?   ?       profile-mode.css
+        ?   ?   ?       search.css
+        ?   ?   ?       terms.css
+        ?   ?   ?       
+        ?   ?   ????core
+        ?   ?   ?       license.css
+        ?   ?   ?       reset.css
+        ?   ?   ?       theme-vars.css
+        ?   ?   ?       zmedia.css
+        ?   ?   ?       
+        ?   ?   ????extended
+        ?   ?   ?       blank.css
+        ?   ?   ?       
+        ?   ?   ????includes
+        ?   ?           chroma-mod.css
+        ?   ?           chroma-styles.css
+        ?   ?           scroll-bar.css
+        ?   ?           
+        ?   ????js
+        ?           fastsearch.js
+        ?           fuse.basic.min.js
+        ?           license.js
+        ?           
+        ????i18n
+        ?       ar.yaml
+        ?       be.yaml
+        ?       bg.yaml
+        ?       bn.yaml
+        ?       ca.yaml
+        ?       ckb.yaml
+        ?       cs.yaml
+        ?       da.yaml
+        ?       de.yaml
+        ?       el.yaml
+        ?       en.yaml
+        ?       eo.yaml
+        ?       es.yaml
+        ?       fa.yaml
+        ?       fr.yaml
+        ?       he.yaml
+        ?       hi.yaml
+        ?       hr.yaml
+        ?       hu.yaml
+        ?       id.yaml
+        ?       it.yaml
+        ?       ja.yaml
+        ?       ko.yaml
+        ?       ku.yaml
+        ?       mn.yaml
+        ?       ms.yaml
+        ?       nl.yaml
+        ?       no.yaml
+        ?       oc.yaml
+        ?       pa.yaml
+        ?       pl.yaml
+        ?       pnb.yaml
+        ?       pt.yaml
+        ?       ro.yaml
+        ?       ru.yaml
+        ?       sk.yaml
+        ?       sv.yaml
+        ?       sw.yaml
+        ?       th.yaml
+        ?       tr.yaml
+        ?       uk.yaml
+        ?       uz.yaml
+        ?       vi.yaml
+        ?       zh-tw.yaml
+        ?       zh.yaml
+        ?       
+        ????images
+        ?       screenshot.png
+        ?       tn.png
+        ?       
+        ????layouts
+            ?   404.html
+            ?   robots.txt
+            ?   
+            ????partials
+            ?   ?   anchored_headings.html
+            ?   ?   author.html
+            ?   ?   breadcrumbs.html
+            ?   ?   comments.html
+            ?   ?   cover.html
+            ?   ?   edit_post.html
+            ?   ?   extend_footer.html
+            ?   ?   extend_head.html
+            ?   ?   footer.html
+            ?   ?   head.html
+            ?   ?   header.html
+            ?   ?   home_info.html
+            ?   ?   index_profile.html
+            ?   ?   post_canonical.html
+            ?   ?   post_meta.html
+            ?   ?   post_nav_links.html
+            ?   ?   share_icons.html
+            ?   ?   social_icons.html
+            ?   ?   svg.html
+            ?   ?   toc.html
+            ?   ?   translation_list.html
+            ?   ?   
+            ?   ????templates
+            ?       ?   opengraph.html
+            ?       ?   schema_json.html
+            ?       ?   twitter_cards.html
+            ?       ?   
+            ?       ????_funcs
+            ?               get-page-images.html
+            ?               
+            ????shortcodes
+            ?       collapse.html
+            ?       figure.html
+            ?       inTextImg.html
+            ?       ltr.html
+            ?       rawhtml.html
+            ?       rtl.html
+            ?       
+            ????_default
+                ?   archives.html
+                ?   baseof.html
+                ?   index.json
+                ?   list.html
+                ?   rss.xml
+                ?   search.html
+                ?   single.html
+                ?   terms.html
+                ?   
+                ????_markup
+                        render-image.html
+                        

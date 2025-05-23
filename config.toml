@@ -1,0 +1,65 @@
+baseURL = "http://example.org/"
+languageCode = "he"
+defaultContentLanguage = "he"
+title = "הבלוג שלי"
+theme = "PaperMod"
+enableInlineShortcodes = true
+
+[languages]
+  [languages.he]
+    languageName = "עברית"
+    weight = 1
+    direction = "rtl"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+
+  ShowToc = true
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowTags = true
+  ShowCategories = true
+
+  [params.homeInfoParams]
+    Title = "ברוכים הבאים לבלוג שלי!"
+    Content = """👋 כאן אשתף מחשבות, קוד, ופרויקטים.
+🎵 תודה על הביקור."""
+
+ [params.assets]
+  customCSS = ["css/custom.css"]
+  disableScrollBarStyle = false
+
+
+[menu]
+
+  [[menu.main]]
+    identifier = "search"
+    name = "חיפוש"
+    url = "search/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "תגיות"
+    url = "tags/"
+    weight = 2
+
+[[menu.main]]
+  identifier = "categories"
+  name = "קטגוריות"
+  url = "categories/"
+  weight = 3
+
+  [[menu.main]]
+  identifier = "archives"
+  name = "ארכיון"
+  url = "archives/"
+  weight = 4
+
+  publishDir = "docs"
