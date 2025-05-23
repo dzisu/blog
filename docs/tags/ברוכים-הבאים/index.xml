@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ברוכים הבאים on הבלוג שלי</title>
+    <link>http://example.org/tags/%D7%91%D7%A8%D7%95%D7%9B%D7%99%D7%9D-%D7%94%D7%91%D7%90%D7%99%D7%9D/</link>
+    <description>Recent content in ברוכים הבאים on הבלוג שלי</description>
+    <generator>Hugo -- 0.147.5</generator>
+    <language>he</language>
+    <lastBuildDate>Fri, 23 May 2025 12:00:00 +0000</lastBuildDate>
+    <atom:link href="http://example.org/tags/%D7%91%D7%A8%D7%95%D7%9B%D7%99%D7%9D-%D7%94%D7%91%D7%90%D7%99%D7%9D/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>הפוסט הראשון שלי</title>
+      <link>http://example.org/posts/first-post/</link>
+      <pubDate>Fri, 23 May 2025 12:00:00 +0000</pubDate>
+      <guid>http://example.org/posts/first-post/</guid>
+      <description>ברוך הבא לבלוג שלי!</description>
+    </item>
+  </channel>
+</rss>
