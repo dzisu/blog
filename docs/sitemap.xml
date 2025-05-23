@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://example.org/posts/</loc>
+    <loc>https://dzisu.github.io/blog/posts/</loc>
     <lastmod>2025-05-23T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/</loc>
+    <loc>https://dzisu.github.io/blog/tags/</loc>
     <lastmod>2025-05-23T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/%D7%91%D7%A8%D7%95%D7%9B%D7%99%D7%9D-%D7%94%D7%91%D7%90%D7%99%D7%9D/</loc>
+    <loc>https://dzisu.github.io/blog/tags/%D7%91%D7%A8%D7%95%D7%9B%D7%99%D7%9D-%D7%94%D7%91%D7%90%D7%99%D7%9D/</loc>
     <lastmod>2025-05-23T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/</loc>
+    <loc>https://dzisu.github.io/blog/</loc>
     <lastmod>2025-05-23T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/first-post/</loc>
+    <loc>https://dzisu.github.io/blog/posts/first-post/</loc>
     <lastmod>2025-05-23T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/%D7%A4%D7%AA%D7%99%D7%97%D7%94/</loc>
+    <loc>https://dzisu.github.io/blog/tags/%D7%A4%D7%AA%D7%99%D7%97%D7%94/</loc>
     <lastmod>2025-05-23T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/</loc>
+    <loc>https://dzisu.github.io/blog/categories/</loc>
     <lastmod>2025-05-22T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99%D7%9D/</loc>
+    <loc>https://dzisu.github.io/blog/categories/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99%D7%9D/</loc>
     <lastmod>2025-05-22T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/tags/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99%D7%9D/</loc>
+    <loc>https://dzisu.github.io/blog/tags/%D7%A2%D7%93%D7%9B%D7%95%D7%A0%D7%99%D7%9D/</loc>
     <lastmod>2025-05-22T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/posts/second-post/</loc>
+    <loc>https://dzisu.github.io/blog/posts/second-post/</loc>
     <lastmod>2025-05-22T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/categories/%D7%A4%D7%99%D7%AA%D7%95%D7%97/</loc>
+    <loc>https://dzisu.github.io/blog/categories/%D7%A4%D7%99%D7%AA%D7%95%D7%97/</loc>
     <lastmod>2025-05-22T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://example.org/archives/</loc>
+    <loc>https://dzisu.github.io/blog/archives/</loc>
   </url><url>
-    <loc>http://example.org/search/</loc>
+    <loc>https://dzisu.github.io/blog/search/</loc>
   </url>
 </urlset>

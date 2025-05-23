@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>הבלוג שלי</title>
-    <link>http://example.org/</link>
+    <link>https://dzisu.github.io/blog/</link>
     <description>Recent content on הבלוג שלי</description>
     <generator>Hugo -- 0.147.5</generator>
     <language>he</language>
     <lastBuildDate>Fri, 23 May 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://dzisu.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>הפוסט הראשון שלי</title>
-      <link>http://example.org/posts/first-post/</link>
+      <link>https://dzisu.github.io/blog/posts/first-post/</link>
       <pubDate>Fri, 23 May 2025 12:00:00 +0000</pubDate>
-      <guid>http://example.org/posts/first-post/</guid>
+      <guid>https://dzisu.github.io/blog/posts/first-post/</guid>
       <description>ברוך הבא לבלוג שלי!</description>
     </item>
     <item>
       <title>פוסט שני</title>
-      <link>http://example.org/posts/second-post/</link>
+      <link>https://dzisu.github.io/blog/posts/second-post/</link>
       <pubDate>Thu, 22 May 2025 12:00:00 +0000</pubDate>
-      <guid>http://example.org/posts/second-post/</guid>
+      <guid>https://dzisu.github.io/blog/posts/second-post/</guid>
       <description>עוד פוסט בעברית</description>
     </item>
   </channel>
