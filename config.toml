@@ -1,3 +1,4 @@
+# Trigger rebuild
 baseURL = "https://dzisu.github.io/blog/"
 languageCode = "en-us"
 title = "My Hugo Blog"
