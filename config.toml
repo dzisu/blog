@@ -11,7 +11,8 @@ buildFuture = false
 buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 # Output formats
 [outputs]
