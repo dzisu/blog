@@ -1,0 +1,45 @@
+# Hugo build output
+/public/
+/resources/_gen/
+
+# Temporary files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules (if using npm)
+node_modules/
+package-lock.json
+
+# Hugo server files
+hugo_stats.json
+
+# Backup files
+*.bak
+*.tmp
+
+# Log files
+*.log
+
+# Environment files
+.env
+.env.local
+.env.production
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Hugo module cache
+/go.sum
+/go.mod
