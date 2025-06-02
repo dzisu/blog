@@ -3,81 +3,20 @@ languageCode = "en-us"
 title = "My Hugo Blog"
 theme = "PaperMod"
 
-# Enable RSS feed
+# Site settings
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
-
-# Pagination
 paginate = 10
 
-# Reading time and word count
-[params]
-    author = "dzisu"
-    description = "A personal blog built with Hugo and PaperMod theme"
-    keywords = ["blog", "hugo", "papermod"]
-    
-    # Reading time
-    ShowReadingTime = true
-    ShowWordCount = true
-    ShowRssButtonInSectionTermList = true
-    
-    # Enable search
-    fuseOpts = [
-        "includeScore",
-        "shouldSort",
-        "location",
-        "distance",
-        "threshold",
-        "findAllMatches",
-        "minMatchCharLength",
-        "keys"
-    ]
+# Output formats
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
 
-    # Social links
-    [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/dzisu"
-
-    [[params.socialIcons]]
-    name = "rss"
-    url = "index.xml"
-
-# Main menu
-[[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 10
-
-[[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    url = "/categories/"
-    weight = 20
-
-[[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 30
-
-[[menu.main]]
-    identifier = "archives"
-    name = "Archives"
-    url = "/archives/"
-    weight = 40
-
-[[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 50
-
-# Markup configuration
+# Markup settings
 [markup]
   [markup.highlight]
     noClasses = false
@@ -86,28 +25,90 @@ paginate = 10
     lineNos = true
     style = "github"
 
-# Output formats
-[outputs]
-    home = ["HTML", "RSS", "JSON"]
+# Params for PaperMod theme
+[params]
+  author = "dzisu"
+  description = "A personal blog built with Hugo and PaperMod theme"
+  keywords = ["blog", "hugo", "papermod"]
 
-# Privacy config
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+
+  # Search config (for fuse.js)
+  [params.fuseOpts]
+    includeScore = true
+    shouldSort = true
+    location = 0
+    distance = 100
+    threshold = 0.4
+    findAllMatches = true
+    minMatchCharLength = 1
+    keys = ["title", "permalink", "summary", "content"]
+
+  # Social icons
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/dzisu"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+# Menu
+[[menu.main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "categories"
+  name = "Categories"
+  url = "/categories/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 30
+
+[[menu.main]]
+  identifier = "archives"
+  name = "Archives"
+  url = "/archives/"
+  weight = 40
+
+[[menu.main]]
+  identifier = "search"
+  name = "Search"
+  url = "/search/"
+  weight = 50
+
+# Privacy
 [privacy]
   [privacy.vimeo]
     disabled = false
     simple = true
+
   [privacy.twitter]
     disabled = false
     enableDNT = true
     simple = true
+
   [privacy.instagram]
     disabled = false
     simple = true
+
   [privacy.youtube]
     disabled = false
     privacyEnhanced = true
 
+# Services
 [services]
   [services.instagram]
     disableInlineCSS = true
+
   [services.twitter]
     disableInlineCSS = true
